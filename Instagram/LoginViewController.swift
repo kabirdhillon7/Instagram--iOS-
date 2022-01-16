@@ -13,11 +13,11 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        passwordField.textContentType = .password
     }
     
     @IBAction func onSignIn(_ sender: Any) {
@@ -29,7 +29,7 @@ class LoginViewController: UIViewController {
           if user != nil {
               self.performSegue(withIdentifier: "loginSegue", sender: nil)
           } else {
-              print("Error: \(error?.localizedDescription)")
+              print(error.debugDescription)
           }
         }
     }
@@ -43,7 +43,7 @@ class LoginViewController: UIViewController {
             if success {
                 self.performSegue(withIdentifier: "loginSegue", sender: nil)
             } else{
-                print("Error: \(error?.localizedDescription)")
+                print(error.debugDescription)
             }
         }
     }
