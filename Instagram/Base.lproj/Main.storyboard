@@ -57,7 +57,6 @@
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="instagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="fWc-Rs-0NY">
                                 <rect key="frame" x="70" y="107" width="288" height="123"/>
-                                <color key="tintColor" systemColor="labelColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="fWc-Rs-0NY" secondAttribute="height" multiplier="281:120" id="gsV-ki-Fsm"/>
                                 </constraints>
