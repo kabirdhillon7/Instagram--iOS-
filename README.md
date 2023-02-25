@@ -14,18 +14,11 @@ Parstagram is an iOS Instagram clone app with a custom Parse backend that allows
 
 Some of the main features include:
 
-- [X] User sees app icon in home screen and styled launch screen.
-- [X] User can sign up to create a new account.
-- [X] User can log in.
-- [X] User can take a photo, add a caption, and post it to the server.
-- [X] User can view the last 20 posts.
-- [ ] User can pull to refresh.
-- [X] Instagram-styled design/UI
-- [X] User stays logged in across restarts.
-- [X] User can log out.
-- [X] User can view comments on a post.
-- [X] User can add a new comment.
-
+- User can login or create a new account, and stays logged in across restarts.
+- User can take a photo, add a caption, and post it to the server.
+- User can add a new comment, and view comments on a post.
+- User can view the last 20 posts.
+- User can log out
 
 ## Requirements
 
